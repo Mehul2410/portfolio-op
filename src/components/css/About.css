@@ -1,0 +1,46 @@
+.about {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.about__Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__Left > h1 {
+  font-size: 68px;
+  color: snow;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about__Left > h3 {
+  font-size: 20px;
+  color: snow;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about__Left > h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: snow;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about__Right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__Right > img {
+  height: 500px;
+  width: 500px;
+}

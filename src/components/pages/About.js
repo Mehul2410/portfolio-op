@@ -9,7 +9,9 @@ const About = () => {
         <h1>I AM MEHUL GAWHALE</h1>
         <h3>LEARNING FULL STACK DEVELOPER & UI/UX DESIGNER </h3>
       </div>
-      <div className="about__Right"></div>
+      <div className="about__Right">
+        <img src={process.env.PUBLIC_URL + "/work.svg"} />
+      </div>
     </div>
   );
 };
