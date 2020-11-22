@@ -1,0 +1,99 @@
+.home {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home:hover .overlay {
+  opacity: 1;
+}
+
+.home__start > h1 {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: rgb(123, 255, 0);
+  font-size: 68px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  backdrop-filter: blur(1px);
+}
+
+.home__start > h2 {
+  position: absolute;
+  top: 47%;
+  left: 28%;
+  position: absolute;
+  color: rgb(123, 255, 0);
+  font-size: 35px;
+  font-weight: 700;
+  width: 60vw;
+  font-family: "Montserrat", sans-serif;
+  backdrop-filter: blur(1px);
+}
+
+.home__front {
+  height: 100%;
+  width: 100%;
+}
+
+.home__front > img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.home__Bottom {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.home__BottomLeft {
+  margin-left: 40px;
+  align-items: center;
+}
+
+.home__BottomLeft > h3 {
+  font-size: xx-large;
+  font-weight: 800;
+  color: #be14d3;
+}
+
+.home__BottomRight {
+  margin-right: 50px;
+  align-items: center;
+}
+.home__BottomRight > a {
+  margin-right: 15px;
+  font-size: x-large;
+  font-weight: 800;
+  text-decoration: inherit;
+  color: snow;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 2s ease;
+  backdrop-filter: blur(99px);
+}
+
+.home__About {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 95%;
+}
