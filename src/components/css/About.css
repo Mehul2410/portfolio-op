@@ -1,10 +1,14 @@
 .about {
-  position: relative;
   width: 80%;
   height: 100%;
-  display: flex;
-  justify-content: space-between;
+
   margin: auto;
+}
+
+.about__body {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 }
 
 .about__Left {
