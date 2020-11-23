@@ -4,14 +4,20 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import Project from "./components/pages/Project";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <Header />
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/Work">
+            <Project />
           </Route>
           <Route path="/Contact">
             <Contact />

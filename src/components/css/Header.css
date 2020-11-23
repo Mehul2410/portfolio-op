@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+  box-shadow: 1px 2px 4px #ba42cad7;
+  z-index: 1;
+  padding: 15px 0px;
+  background-color: transparent;
+}
+
+.header__Left {
+  margin-left: 40px;
+  align-items: center;
+}
+
+.header__Left > h3 {
+  font-size: xx-large;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__Right {
+  margin-right: 50px;
+  align-items: center;
+}
+.header__Right > a {
+  margin-right: 20px;
+  font-size: x-large;
+  font-weight: 800;
+  text-decoration: inherit;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}

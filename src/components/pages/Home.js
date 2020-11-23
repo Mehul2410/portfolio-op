@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/Home.css";
+import Header from "../Header";
 import About from "./About";
 
 const Home = () => {
@@ -16,23 +17,11 @@ const Home = () => {
         <img src={process.env.PUBLIC_URL + "/portfolio-bg.jpg"} />
       </div>
       <div className="overlay">
-        <div className="home__Bottom">
-          <div className="home__BottomLeft">
-            <h3>Mehul</h3>
-          </div>
-          <div className="home__BottomRight">
-            <Link to="/">About</Link>
-
-            <Link to="/Contact">Work</Link>
-
-            <Link to="/Contact">Contact</Link>
-          </div>
-        </div>
         <div className="home__About">
           <About />
         </div>
         <div className="home__Work">
-          <Link to="/Contact">Let's explore my work</Link>
+          <Link to="/Work">Let's explore my work</Link>
         </div>
       </div>
     </div>
