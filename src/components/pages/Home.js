@@ -21,15 +21,18 @@ const Home = () => {
             <h3>Mehul</h3>
           </div>
           <div className="home__BottomRight">
-            <Link to="/">Home</Link>
+            <Link to="/">About</Link>
 
-            <Link to="#About">About</Link>
+            <Link to="/Contact">Work</Link>
 
             <Link to="/Contact">Contact</Link>
           </div>
         </div>
-        <div className="home__About" id="About">
+        <div className="home__About">
           <About />
+        </div>
+        <div className="home__Work">
+          <Link to="/Contact">Let's explore my work</Link>
         </div>
       </div>
     </div>

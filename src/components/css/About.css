@@ -53,7 +53,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 10%;
+  top: 20%;
 }
 
 .about__IntroLeft > img {
@@ -64,24 +64,27 @@
 .about__IntroRight {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+
   border: 3px gray;
   align-items: center;
   justify-content: center;
   box-shadow: inset 5px 6px 8px rgb(190, 105, 105);
-  border-radius: 40px;
+  border-radius: 126px;
+  padding: 50px;
 }
 
 .about__IntroRight > h1 {
   font-size: 50px;
   color: black;
   font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
 
 .about__IntroRight > h3 {
   font-size: medium;
   color: black;
   font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
 }
