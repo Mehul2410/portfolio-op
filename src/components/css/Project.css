@@ -1,7 +1,7 @@
 .project {
   position: relative;
   display: flex;
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   background: rgb(193, 0, 143);
   background: linear-gradient(
@@ -16,7 +16,7 @@
 
 .project > h1 {
   position: absolute;
-  top: 12%;
+  top: 5%;
   text-align: center;
   width: 100%;
   font-weight: 900;
@@ -26,6 +26,13 @@
 }
 
 .project__Cards {
-  position: absolute;
-  top: 25%;
+  position: relative;
+  top: 11%;
+  height: max-content;
+  width: 90%;
+  margin: 0px auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }

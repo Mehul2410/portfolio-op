@@ -6,19 +6,27 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./css/Card.css";
+import { CardMedia } from "@material-ui/core";
 
-const Cards = () => {
+const Cards = ({ name, repos, image, link }) => {
   return (
-    <div>
-      <Card>
-        <CardContent>
-          <Typography>Google Search Clone</Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
-      </Card>
-    </div>
+    <Card className="card">
+      <CardContent>
+        <Typography>{name}</Typography>
+      </CardContent>
+      <CardMedia className="card__image">
+        <img src={image} />
+      </CardMedia>
+
+      <CardActions className="card__buttons">
+        <Button size="small">
+          <a href={repos}>GITHUB</a>
+        </Button>
+        <Button size="small">
+          <a href={link}>Live</a>
+        </Button>
+      </CardActions>
+    </Card>
   );
 };
 
