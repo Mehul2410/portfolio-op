@@ -48,3 +48,40 @@
   height: 500px;
   width: 500px;
 }
+
+.about__Intro {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 10%;
+}
+
+.about__IntroLeft > img {
+  height: 500px;
+  width: 600px;
+}
+
+.about__IntroRight {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 3px gray;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 5px 6px 8px rgb(190, 105, 105);
+  border-radius: 40px;
+}
+
+.about__IntroRight > h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about__IntroRight > h3 {
+  font-size: medium;
+  color: black;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
