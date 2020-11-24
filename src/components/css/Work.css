@@ -1,0 +1,14 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgb(193, 0, 143);
+  background: linear-gradient(
+    161deg,
+    rgb(193, 0, 142) 10%,
+    rgb(205, 162, 231) 55%,
+    rgb(241, 128, 194) 67%,
+    rgb(214, 185, 214) 79%,
+    rgb(211, 196, 196) 98%
+  );
+}
