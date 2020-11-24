@@ -1,7 +1,7 @@
 .project {
   position: relative;
   display: flex;
-  height: 200vh;
+  height: 170vh;
   width: 100%;
   background: rgb(193, 0, 143);
   background: linear-gradient(
@@ -27,12 +27,12 @@
 
 .project__Cards {
   position: relative;
-  top: 11%;
+  top: 13%;
   height: max-content;
   width: 90%;
   margin: 0px auto;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 25px;
+  row-gap: 25px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }

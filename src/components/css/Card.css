@@ -6,5 +6,18 @@
 
 .card__buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 1px 1px 10px 2px rgb(182, 197, 206);
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/Skill.css";
 
 const Skills = () => {
   return (
-    <div>
-      <h1>12345</h1>
+    <div className="skills">
+      <h1>Skills</h1>
     </div>
   );
 };
