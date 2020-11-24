@@ -3,10 +3,12 @@ import Header from "../Header";
 import "../css/Project.css";
 
 import Cards from "../Cards";
+import Skills from "./Skills";
 
 const Project = ({ name, repos, image, link }) => {
   return (
     <div className="project">
+      <Skills />
       <h1>Project</h1>
       <div className="project__Cards">
         <Cards

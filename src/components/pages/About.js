@@ -8,7 +8,7 @@ const About = () => {
         <div className="about__Left">
           <h2>HELLO</h2>
           <h1>I AM MEHUL GAWHALE</h1>
-          <h3>LEARNING FULL STACK DEVELOPER & UI/UX DESIGNER </h3>
+          <h3>FRONT-END WEB-DEVELOPER & UI/UX DESIGNER </h3>
         </div>
         <div className="about__Right">
           <img src={process.env.PUBLIC_URL + "/work.svg"} />
