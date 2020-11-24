@@ -1,11 +1,27 @@
 import React from "react";
-import "../css/Skills.css";
 
-const Skills = () => {
+import "../css/Skills.css";
+import Progressbar from "../Progressbar";
+
+const Skills = ({ Language, percent, progress }) => {
   return (
     <div className="skills">
       <h1>Skills</h1>
-      <div className="skills__List"></div>
+      <div className="skills__List">
+        <Progressbar Language={"HTML"} percent={"100"} progress={"100"} />
+        <Progressbar Language={"CSS"} percent={"90"} progress={"90"} />
+        <Progressbar Language={"JS"} percent={"80"} progress={"80"} />
+        <Progressbar Language={"REACTJS"} percent={"85"} progress={"85"} />
+        <Progressbar Language={"NODEJS"} percent={"40"} progress={"40"} />
+        {/* <Progressbar
+          Language={"COMMUNICATION SKILLS"}
+          percent={"90"}
+          progress={"90"}
+        /> */}
+
+        <Progressbar Language={"GIT"} percent={"80"} progress={"80"} />
+        <Progressbar Language={"REACT-NATIVE"} percent={"50"} progress={"50"} />
+      </div>
     </div>
   );
 };

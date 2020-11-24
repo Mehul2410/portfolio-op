@@ -40,10 +40,10 @@
 }
 
 .home__Work > a {
-  font-size: x-large;
-  font-weight: 800;
+  font-size: larger;
+  font-weight: 700;
   text-decoration: inherit;
-  color: snow;
+  color: black;
   text-align: center;
 }
 
@@ -53,12 +53,12 @@
   left: 40%;
   width: max-content;
   text-align: center;
-  border-radius: 15px;
-  background-color: rgba(86, 86, 204, 0.877);
+  border-radius: 5px;
+  background-color: snow;
   padding: 9px;
 }
 .home__Work:hover {
-  box-shadow: inset 2px 4px 5px rgb(54, 53, 53);
+  box-shadow: 1px 2px 3px 3px rgb(110, 108, 108);
 }
 
 .overlay {
