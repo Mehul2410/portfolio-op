@@ -71,7 +71,6 @@
   width: 100%;
   opacity: 0;
   transition: 2s ease;
-  backdrop-filter: blur(99px);
 }
 
 .home__About {
